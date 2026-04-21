@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="edu.ggc.lutz.a10sep2019navup">
+    package="edu.ggc.lutz.a17sep2019colorchooserprototype">
 
     <application
         android:allowBackup="true"
@@ -9,8 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ChooserActivity"></activity>
-        <activity android:name=".MainActivity">
+        <activity android:name=".ColorChooserActivity"></activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

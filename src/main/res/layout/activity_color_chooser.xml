@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ColorChooserActivity">
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RadioButton
+            android:id="@+id/rbStandard"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/standard_color"
+            android:textSize="30sp" />
+
+        <RadioButton
+            android:id="@+id/rbCustom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/custom_color"
+            android:textSize="30sp" />
+    </RadioGroup>
+
+    <SeekBar
+        android:id="@+id/sbR"
+        android:layout_width="321dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="32dp"
+        android:max="255"
+        android:progress="127"
+        app:layout_constraintBottom_toBottomOf="@+id/tvR"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/tvR"
+        android:visibility="invisible"/>
+
+    <SeekBar
+        android:id="@+id/sbA"
+        android:layout_width="321dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="32dp"
+        android:max="255"
+        android:progress="127"
+        app:layout_constraintBottom_toBottomOf="@+id/tvA"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/tvA"
+        android:visibility="invisible"/>
+
+    <SeekBar
+        android:id="@+id/sbG"
+        android:layout_width="321dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="32dp"
+        android:max="255"
+        android:progress="127"
+        app:layout_constraintBottom_toBottomOf="@+id/tvG"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/tvG"
+        android:visibility="invisible" />
+
+    <SeekBar
+        android:id="@+id/sbB"
+        android:layout_width="321dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="32dp"
+        android:max="255"
+        android:progress="127"
+        app:layout_constraintBottom_toBottomOf="@+id/tvB"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/tvB"
+        android:visibility="invisible" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="347dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        android:entries="@array/color_array"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/radioGroup" />
+
+    <TextView
+        android:id="@+id/tvG"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="32dp"
+        android:text="@string/g"
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvR"
+        android:visibility="invisible"/>
+
+    <TextView
+        android:id="@+id/tvB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="32dp"
+        android:text="@string/b"
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvG"
+        android:visibility="invisible"/>
+
+    <TextView
+        android:id="@+id/tvA"
+        android:layout_width="20dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="32dp"
+        android:text="@string/a"
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvB"
+        android:visibility="invisible"/>
+
+    <TextView
+        android:id="@+id/tvR"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="32dp"
+        android:text="@string/r"
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spinner"
+        android:visibility="invisible"/>
+</androidx.constraintlayout.widget.ConstraintLayout>
