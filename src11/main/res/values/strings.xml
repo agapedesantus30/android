@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Grizzly POIs</string>
+    <string name="action_settings">Settings</string>
+    <string name="grizzly_statue">Grizzly Statue</string>
+    <string name="library">Library</string>
+    <string name="athletic_complex">Athletic Complex</string>
+</resources>

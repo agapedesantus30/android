@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity"
+    tools:showIn="@layout/activity_main">
+
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginRight="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RadioButton
+            android:id="@+id/rbGrizzly"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:checked="true"
+            android:text="@string/grizzly_statue"
+            android:textSize="30sp"
+            tools:layout_editor_absoluteY="32dp" />
+
+        <RadioButton
+            android:id="@+id/rbLibrary"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/library"
+            android:textSize="30sp"
+            tools:layout_editor_absoluteY="105dp" />
+
+        <RadioButton
+            android:id="@+id/rbAthletic"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/athletic_complex"
+            android:textSize="30sp"
+            tools:layout_editor_absoluteY="105dp" />
+
+    </RadioGroup>
+
+    <ImageView
+        android:id="@+id/updateImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginRight="32dp"
+        android:layout_marginBottom="150dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/grizzly" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
