@@ -1,0 +1,175 @@
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    tools:layout_editor_absoluteY="81dp"
+    tools:layout_editor_absoluteX="0dp">
+
+    <TextView
+        android:id="@+id/tvAccelX"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:text="@string/zero.zero"
+        app:layout_constraintBaseline_toBaselineOf="@+id/tvAccelerationXLabel"
+        app:layout_constraintLeft_toRightOf="@+id/tvAccelerationXLabel"
+        tools:ignore="RtlHardcoded" />
+
+    <TextView
+        android:id="@+id/tvAccelY"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:text="@string/zero.zero"
+        app:layout_constraintBaseline_toBaselineOf="@+id/tvAcellerationYLabel"
+        app:layout_constraintLeft_toRightOf="@+id/tvAcellerationYLabel"
+        tools:ignore="RtlHardcoded" />
+
+    <TextView
+        android:id="@+id/tvAccelZ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:text="@string/zero.zero"
+        app:layout_constraintBaseline_toBaselineOf="@+id/tvAccelerationZLabel"
+        app:layout_constraintLeft_toRightOf="@+id/tvAccelerationZLabel"
+        tools:ignore="RtlHardcoded" />
+
+    <TextView
+        android:id="@+id/tvGravityLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/gravity"
+        android:textSize="30sp"
+        tools:layout_constraintTop_creator="1"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvGravityXLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:text="@string/x_colon"
+        app:layout_constraintLeft_toLeftOf="parent"
+        tools:layout_constraintTop_creator="1"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintTop_toBottomOf="@+id/tvGravityLabel"
+        tools:ignore="RtlHardcoded" />
+
+    <TextView
+        android:id="@+id/tvGravityYLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:text="@string/y_colon"
+        app:layout_constraintLeft_toLeftOf="parent"
+        tools:layout_constraintTop_creator="1"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintTop_toBottomOf="@+id/tvGravityXLabel"
+        tools:ignore="RtlHardcoded" />
+
+    <TextView
+        android:id="@+id/tvGravityZLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:text="@string/z_colon"
+        app:layout_constraintLeft_toLeftOf="parent"
+        tools:layout_constraintTop_creator="1"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintTop_toBottomOf="@+id/tvGravityYLabel"
+        tools:ignore="RtlHardcoded" />
+
+    <TextView
+        android:id="@+id/tvAccelerationLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="@string/acceleration"
+        android:textSize="30sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        tools:layout_constraintBottom_creator="1"
+        tools:layout_constraintLeft_creator="1"
+        android:layout_marginLeft="16dp"
+        tools:ignore="RtlHardcoded"
+        android:layout_marginTop="45dp"
+        app:layout_constraintTop_toBottomOf="@+id/tvGravityZLabel" />
+
+    <TextView
+        android:id="@+id/tvAccelerationXLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/x_colon"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvAccelerationLabel"
+        tools:ignore="RtlHardcoded"
+        tools:layout_constraintBottom_creator="1" />
+
+    <TextView
+        android:id="@+id/tvAcellerationYLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginStart="25dp"
+        android:text="@string/y_colon"
+        app:layout_constraintLeft_toLeftOf="parent"
+        tools:layout_constraintBottom_creator="1"
+        tools:ignore="RtlHardcoded"
+        android:layout_marginTop="16dp"
+        app:layout_constraintTop_toBottomOf="@+id/tvAccelerationXLabel" />
+
+    <TextView
+        android:id="@+id/tvAccelerationZLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginStart="25dp"
+        android:text="@string/z_colon"
+        app:layout_constraintLeft_toLeftOf="parent"
+        tools:layout_constraintBottom_creator="1"
+        tools:ignore="RtlHardcoded"
+        android:layout_marginTop="16dp"
+        app:layout_constraintTop_toBottomOf="@+id/tvAcellerationYLabel" />
+
+    <TextView
+        android:id="@+id/tvGravityX"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:text="@string/zero.zero"
+        app:layout_constraintBaseline_toBaselineOf="@+id/tvGravityXLabel"
+        app:layout_constraintLeft_toRightOf="@+id/tvGravityXLabel"
+        tools:ignore="RtlHardcoded" />
+
+    <TextView
+        android:id="@+id/tvGravityY"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:text="@string/zero.zero"
+        app:layout_constraintBaseline_toBaselineOf="@+id/tvGravityYLabel"
+        app:layout_constraintLeft_toRightOf="@+id/tvGravityYLabel"
+        tools:ignore="RtlHardcoded" />
+
+    <TextView
+        android:id="@+id/tvGravityZ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:text="@string/zero.zero"
+        app:layout_constraintBaseline_toBaselineOf="@+id/tvGravityZLabel"
+        app:layout_constraintLeft_toRightOf="@+id/tvGravityZLabel"
+        tools:ignore="RtlHardcoded" />
+</android.support.constraint.ConstraintLayout>

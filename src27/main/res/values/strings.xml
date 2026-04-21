@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">UpDown</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="zero.zero">0.0</string>
+    <string name="x_colon">x:</string>
+    <string name="y_colon">y:</string>
+    <string name="z_colon">z:</string>
+    <string name="acceleration">Acceleration</string>
+    <string name="gravity">Gravity</string>
+</resources>
