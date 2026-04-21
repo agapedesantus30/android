@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">SurfaceView</string>
+    <string name="please_click_to_restart_app">PLEASE CLICK TO RESPAWN BALL</string>
+</resources>
