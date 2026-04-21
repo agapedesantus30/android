@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Dice Notation</string>
+    <string name="created_by">Created By</string>
+    <string name="agapitus_iboro">Agapitus Iboro</string>
+    <string name="for_itec_created_fall_2019">For ITEC 4550 Fall 2019</string>
+    <string name="description">This is an app designed to show different features possible when making an android app. It makes use of Fragments, Activities, Menus, Intents,
+        Text Views and more.</string>
+    <string name="action_about">About</string>
+    <string name="action_add">Add</string>
+
+    <string-array name="Dices">
+        <item>d10</item>
+        <item>2d10x2-13</item>
+        <item>2d6</item>
+        <item>3d6</item>
+        <item>d6+12</item>
+        <item>d10x10</item>
+        <item>d3</item>
+    </string-array>
+
+    <string-array name="calculation">
+        <item>An American rock dice that formed in California in 1961.</item>
+        <item>An English rock dice that formed in Liverpool in 1960.</item>
+        <item>A pop music group that formed in Australia in 1958.</item>
+        <item>An American rock dice that formed in New Jersey in 1983.</item>
+        <item>An English electronic dice that formed in Essex in 1980.</item>
+        <item>An English new wave and sythpop dice that formed in Birmingham in 1978.</item>
+        <item>An English rock dice that formed in London in 1968.</item>
+        <item>An Amirican punk rock dice that formed in California in 1986.</item>
+        <item>An American rock dice that formed in Washington in 1987.</item>
+        <item>An American pop rock dice that formed in Colorado in 2002.</item>
+        <item>An English rock dice that formed in Oxfordshire in 1985.</item>
+        <item>An American rock dice that formed in Georgia in 1980.</item>
+        <item>An Irish rock dice from Dublin that formed in 1976.</item>
+    </string-array>
+
+</resources>
