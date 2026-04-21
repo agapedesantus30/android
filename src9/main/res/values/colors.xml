@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorDice">#D50000</color>
+
+
+<!--        <color name="Red">#FF0000</color>-->
+<!--        <color name="Green">#008000</color>-->
+<!--        <color name="Blue">#0000ff</color>-->
+<!--        <color name="Cyan">#00FFFF</color>-->
+<!--        <color name="Yellow">#FFFF00</color>-->
+<!--        <color name="Magenta">#FF00FF</color>-->
+
+<!--        <array name="color_array">-->
+<!--            <item>#FF0000</item>-->
+<!--            <item>#008000</item>-->
+<!--            <item>#0000ff</item>-->
+<!--            <item>#00FFFF</item>-->
+<!--            <item>#FFFF00</item>-->
+<!--            <item>#FF00FF</item>-->
+<!--        </array>-->
+
+</resources>
+
+    <!--<?xml version="1.0" encoding="utf-8"?>-->
+    <!--<resources>-->
+    <!--<color name="colorPrimary">#008577</color>-->
+    <!--<color name="colorPrimaryDark">#00574B</color>-->
+    <!--<color name="colorAccent">#D81B60</color>-->
+    <!--</resources>-->

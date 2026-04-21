@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/add_one"
+        android:title="@string/add_one">
+    </item>
+    <item android:id="@+id/subtract_one"
+        android:title="@string/subtract_one">
+    </item>
+    <item android:id="@+id/change_sides"
+        android:title="@string/change_sides">
+
+        <menu>
+            <item android:id="@+id/choose_from"
+                android:title="@string/choose_from"/>
+            <item android:id="@+id/four"
+                android:title="@string/_4_sided"/>
+            <item android:id="@+id/six"
+                android:title="@string/_6_sided"/>
+            <item android:id="@+id/ten"
+                android:title="@string/_10_sided"/>
+        </menu>
+
+    </item>
+    <item android:id="@+id/roll"
+        android:title="@string/roll">
+    </item>
+</menu>
